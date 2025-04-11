@@ -1,0 +1,87 @@
+/* Base styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background: linear-gradient(135deg, #e0f7fa, #fce4ec);
+}
+
+/* Container */
+.tip-calculator {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 340px;
+  transition: all 0.3s ease-in-out;
+}
+
+.tip-calculator:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+}
+
+/* Headings */
+.tip-calculator h1 {
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Input groups */
+.input-group {
+  margin-bottom: 18px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #444;
+}
+
+.input-group input,
+.input-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1.5px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.input-group input:focus,
+.input-group select:focus {
+  border-color: #00bcd4;
+}
+
+/* Results */
+.results {
+  margin-top: 25px;
+  padding: 16px;
+  background: #f1f8e9;
+  border-radius: 10px;
+  border: 1px dashed #aed581;
+  color: #33691e;
+}
+
+.results h3 {
+  margin-top: 0;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.results p {
+  margin: 6px 0;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.results strong {
+  color: #2e7d32;
+}
